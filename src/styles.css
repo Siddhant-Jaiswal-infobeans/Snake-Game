@@ -1,0 +1,64 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+}
+
+.arrow-right {
+  width: 0px;
+  height: 0px;
+}
+.absoulejwo {
+  position: absolute;
+  top: 5px;
+}
+
+.five-point-star {
+  position: relative;
+  display: block;
+  margin: 12px 0;
+  width: 0px;
+  height: 0px;
+  border-right: 20px solid transparent;
+  border-bottom: 15px solid green;
+  border-left: 20px solid transparent;
+  transform: rotate(37deg);
+}
+
+.five-point-star:before {
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  top: -9.33px;
+  left: -12px;
+  content: "";
+  border-bottom: 14px solid green;
+  border-left: 4.66px solid transparent;
+  border-right: 4.66px solid transparent;
+  transform: rotate(323deg);
+}
+#root {
+  height: 100%;
+}
+.five-point-star:after {
+  position: absolute;
+  display: block;
+  width: 0px;
+  height: 0px;
+  top: 0;
+  left: -20px;
+  content: "";
+  border-right: 20px solid transparent;
+  border-bottom: 15px solid green;
+  border-left: 20px solid transparent;
+  transform: rotate(286deg);
+}
